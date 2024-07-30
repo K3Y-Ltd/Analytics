@@ -1,0 +1,4 @@
+,3
+name,LinearSVC
+params,"{'C': 10, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'loss': 'squared_hinge', 'max_iter': 300, 'multi_class': 'ovr', 'penalty': 'l1', 'random_state': None, 'tol': 0.0001, 'verbose': 0}"
+metrics,"{'accuracy': 0.6705157677571469, 'f1_score': 0.6685710610023199, 'roc_auc': 0.8915374783637324, 'TPR': 0.6722239405572682, 'FPR': 0.08215577797263482}"

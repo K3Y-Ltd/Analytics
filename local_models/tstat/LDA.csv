@@ -1,0 +1,4 @@
+,0
+name,LinearDiscriminantAnalysis
+params,"{'covariance_estimator': None, 'n_components': None, 'priors': None, 'shrinkage': None, 'solver': 'svd', 'store_covariance': False, 'tol': 0.0001}"
+metrics,"{'accuracy': 0.9799552572706937, 'f1_score': 0.9799577594474206, 'roc_auc': 0.9986360818669795, 'TPR': 0.980370256705951, 'FPR': 0.01962974329404901}"

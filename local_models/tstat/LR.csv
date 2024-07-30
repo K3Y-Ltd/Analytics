@@ -1,0 +1,4 @@
+,6
+name,LogisticRegression
+params,"{'C': 10.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l1', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}"
+metrics,"{'accuracy': 0.9973154362416107, 'f1_score': 0.9973166468132911, 'roc_auc': 0.9999638858793789, 'TPR': 0.9974358974358974, 'FPR': 0.002564102564102564}"

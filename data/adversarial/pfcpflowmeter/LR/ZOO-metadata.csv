@@ -1,0 +1,17 @@
+attacks,correlation,mae,wasserstein
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.1, 'binary_search_steps': 10}",0.9999999259746243,0.006796782440606099,0.006796782440606103
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.1, 'binary_search_steps': 10}",0.999999936398319,0.005986157011909958,0.005986157011909956
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.1, 'binary_search_steps': 10}",0.9999999110917261,0.008979235517864935,0.008979235517864942
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.1, 'binary_search_steps': 10}",0.9999999083802955,0.008168610089168797,0.008168610089168794
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.05, 'binary_search_steps': 10}",0.9999999417791005,0.004988464176591632,0.004988464176591643
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.05, 'binary_search_steps': 10}",0.999999926924412,0.006173224418532145,0.006173224418532146
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.05, 'binary_search_steps': 10}",0.999999914339139,0.00841803329799838,0.008418033297998374
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.05, 'binary_search_steps': 10}",0.9999998965586545,0.00960279353993889,0.009602793539938892
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.1, 'binary_search_steps': 20}",0.9999999601542621,0.003304857516991956,0.0033048575169919558
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.1, 'binary_search_steps': 20}",0.9999999601244903,0.0038037039346511194,0.0038037039346511176
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.1, 'binary_search_steps': 20}",0.9999999457479369,0.004863752572176841,0.004863752572176841
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.1, 'binary_search_steps': 20}",0.9999999448742795,0.0053625989898360045,0.005362598989836009
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.05, 'binary_search_steps': 20}",0.9999999512113342,0.003990771341273305,0.003990771341273304
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 10, 'confidence': 0.05, 'binary_search_steps': 20}",0.9999999448732243,0.005175531583213818,0.005175531583213814
+"{'variable_h': 0.05, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.05, 'binary_search_steps': 20}",0.9999999440907859,0.005175531583213818,0.005175531583213813
+"{'variable_h': 0.2, 'nb_parallel': 1, 'max_iter': 20, 'confidence': 0.05, 'binary_search_steps': 20}",0.9999999448683393,0.0044896177589324685,0.004489617758932468
