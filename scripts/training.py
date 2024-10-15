@@ -10,7 +10,6 @@ import pandas as pd
 from pandas import DataFrame, Series
 
 from utils.utils import accuracy_score, f1_score, roc_auc, false_positive_rate, true_positive_rate
-from utils.datasets import process_json_data
 
 from sklearn.model_selection import KFold
 from sklearn.base import BaseEstimator
@@ -23,7 +22,7 @@ from sklearn.svm import LinearSVC
 from joblib import dump
 from warnings import simplefilter
 from sklearn.exceptions import ConvergenceWarning
-from utils.datasets import get_json_data
+
 np.seterr(divide='ignore', invalid='ignore')
 simplefilter("ignore", category=(ConvergenceWarning))
 
@@ -240,12 +239,18 @@ def main(args):
 
         # Send models and meta-data to the API
         api_url_out = os.path.join(args.api_url, args.aggregator, "files")
-        send_data(url=api_url_out,
-                  path=local_out_path,
-                  file_name=model + '.joblib',
-                  meta_data={"metadata": json.dumps(meta_data.to_dict())})
+        try:
+            send_data(url=api_url_out,
+                      path=local_out_path,
+                      file_name=model + '.joblib',
+                      meta_data={"metadata": json.dumps(meta_data.to_dict())})
 
+        except requests.ConnectTimeout:
+            print("ElasticSearch is Down - Saved Locally at {os.path.join(local_out_path, model + '.joblib')}")
 
+        except requests.RequestException as e:
+            # Generic exception handler for any other request-related errors
+            print(f"An error occurred: {e}")
 
 
 if __name__ == "__main__":

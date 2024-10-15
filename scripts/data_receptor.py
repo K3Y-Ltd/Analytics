@@ -17,7 +17,7 @@ def main(args):
     """
     from utils.datasets import COLS_DROPPED_PFCP, COLS_DROPPED_TSTAT, COLS_DROPPED_CIC
 
-    # COMMENT IN AGAIN when infrastructure
+    # REPLACE when infrastructure is up
     # Get the data and process them into a Pandas data frame
     #json_data = get_json_data(args.url, args.query, args.aggregator)
     #data = process_json_data(json_data, args.aggregator)

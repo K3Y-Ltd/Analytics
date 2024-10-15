@@ -8,6 +8,8 @@ import glob
 
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
+
+
 def model_evaluate(model, X, y):
     # Predict on the test set and evaluate
     y_probs = model.predict_proba(X) if model.__class__.__name__ not in ['LinearSVC'] else model._predict_proba_lr(X)

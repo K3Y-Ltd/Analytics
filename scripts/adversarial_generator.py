@@ -2,7 +2,7 @@ import os
 import argparse
 import pandas as pd
 from data_receptor import main as data_receptor
-from utils.utils import download_file, affinity
+from utils.utils import affinity
 from joblib import load
 from sklearn.model_selection import ParameterGrid
 from art.estimators.classification import SklearnClassifier
@@ -27,6 +27,7 @@ def main(args):
     modelname = args.model + '.joblib'
     model = load(os.path.join('../local_models', args.aggregator, modelname))
 
+    # DOWNLOAD MODEL, when infrastucture is up
     # url = os.path.join(args.url, args.aggregator)
     # save_path = os.path.join(args.save_path, args.aggregator)
     # model = download_file(url, save_path, modelname)
