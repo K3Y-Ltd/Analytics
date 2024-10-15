@@ -2,9 +2,8 @@ import os
 import argparse
 import pandas as pd
 from data_receptor import main as data_receptor
-from ..utils.utils import download_file
 from joblib import load
-from ..utils.utils import accuracy_score, f1_score, roc_auc, true_positive_rate, false_positive_rate
+from utils.utils import accuracy_score, f1_score
 import glob
 
 import warnings

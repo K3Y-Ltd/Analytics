@@ -2,7 +2,7 @@ import os
 import argparse
 import pandas as pd
 from data_receptor import main as data_receptor
-from ..utils.utils import download_file, affinity
+from utils.utils import download_file, affinity
 from joblib import load
 from sklearn.model_selection import ParameterGrid
 from art.estimators.classification import SklearnClassifier

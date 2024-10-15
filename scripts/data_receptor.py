@@ -1,7 +1,7 @@
 import argparse
 import os
 import pandas as pd
-from ..utils.datasets import get_json_data, process_json_data
+from utils.datasets import get_json_data, process_json_data
 
 
 

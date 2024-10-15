@@ -2,7 +2,7 @@ import os
 import argparse
 import pandas as pd
 from data_receptor import main as data_receptor
-from ..utils.utils import accuracy_score, f1_score
+from utils.utils import accuracy_score, f1_score
 from sklearn.model_selection import train_test_split, cross_val_score
 from xgboost import XGBClassifier
 import warnings

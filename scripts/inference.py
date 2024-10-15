@@ -7,8 +7,8 @@ from confluent_kafka import Consumer, KafkaError
 import pandas as pd
 import json
 from kafka import KafkaProducer
-from ..utils.datasets import COLS_DROPPED_PFCP, COLS_DROPPED_CIC, COLS_DROPPED_TSTAT
-from ..utils.utils import download_file
+from utils.datasets import COLS_DROPPED_PFCP, COLS_DROPPED_CIC, COLS_DROPPED_TSTAT
+from utils.utils import download_file
 
 
 

@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame, Series
 
-from ..utils.utils import accuracy_score, f1_score, roc_auc, false_positive_rate, true_positive_rate
-from ..utils.datasets import process_json_data
+from utils.utils import accuracy_score, f1_score, roc_auc, false_positive_rate, true_positive_rate
+from utils.datasets import process_json_data
 
 from sklearn.model_selection import KFold
 from sklearn.base import BaseEstimator
@@ -23,7 +23,7 @@ from sklearn.svm import LinearSVC
 from joblib import dump
 from warnings import simplefilter
 from sklearn.exceptions import ConvergenceWarning
-from ..utils.datasets import get_json_data
+from utils.datasets import get_json_data
 np.seterr(divide='ignore', invalid='ignore')
 simplefilter("ignore", category=(ConvergenceWarning))
 
