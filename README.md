@@ -1,5 +1,4 @@
 ![alt text](logos/logo_across.jpg )
-![alt text](logos/logo_k3y.png )
 
 # ACROSS - Analytics & Data Drift Detector
 
@@ -29,3 +28,4 @@ To install the service please follow the steps enumerated below:
  For more information on each component please refer to the dedicated Readme files.
 
 
+![alt text](logos/logo_k3y.png )
