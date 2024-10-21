@@ -1,19 +1,21 @@
+![alt text](logos/logo_across.jpg )
+![alt text](logos/logo_k3y.png )
+
 # ACROSS - Analytics
 
-This repository contains the Analytics tools developed for the ACROSS project.
+This repository contains the Analytics and the Data Drift Detector tools developed for the ACROSS project.
 
 ## Introduction
 It contains several components:
-1) Training 
-2) Inference
-3) Data Receptor
-4) Adversarial Generator
-5) Adversarial Discriminator
-6) Resilience Verificator
+1) Training (Analytics)
+2) Inference (Analytics)
+3) Data Receptor (Data Drift Detector)
+4) Adversarial Generator (Data Drift Detector)
+5) Adversarial Discriminator (Data Drift Detector)
+6) Resilience Verificator (Data Drift Detector)
 
 Each component is provided as an API with usage examples as well as in scripts, able to be run from the terminal.
 ##
-
 
 ## Installation
 To install the service please follow the steps enumerated below:
@@ -22,8 +24,6 @@ To install the service please follow the steps enumerated below:
 3. Make virtual environment ```virtualenv -p python3.10 venv```
 4. Activate the environment ``source venv/bin/activate``
 5. Install the requirements: ``pip install -r requirements.txt``
-
-
 
 
  For more information on each component please refer to the dedicated Readme files.
