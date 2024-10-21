@@ -1,9 +1,9 @@
 ![alt text](logos/logo_across.jpg )
 ![alt text](logos/logo_k3y.png )
 
-# ACROSS - Analytics
+# ACROSS - Analytics & Data Drift Detector
 
-This repository contains the Analytics and the Data Drift Detector tools developed for the ACROSS project.
+This repository contains the Analytics and the Data Drift Detector services developed for the ACROSS project.
 
 ## Introduction
 It contains several components:
