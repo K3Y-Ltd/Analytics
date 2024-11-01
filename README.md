@@ -23,7 +23,7 @@ To install the service please follow the steps enumerated below:
 3. Make virtual environment ```virtualenv -p python3.10 venv```
 4. Activate the environment ``source venv/bin/activate``
 5. Install the requirements: ``pip install -r requirements.txt``
-6. Install the package: ``python setup.py sdist bdist_wheel``
+6. Install the package: ``python setup.py -e .``
 
  For more information on each component please refer to the dedicated Readme files.
 
