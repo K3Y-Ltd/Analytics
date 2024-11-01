@@ -14,7 +14,7 @@ Ensure you have Python 3 installed. Optionally make a virtual environment:
 3. Make virtual environment ```virtualenv -p python3.10 venv```
 4. Activate the environment ``source venv/bin/activate``
 5. Install the requirements: ``pip install -r requirements.txt``
-6. Install the package: ``python setup.py sdist bdist_wheel``
+6. Install the package: ``python setup.py -e .``
 
 
 ### Usage
